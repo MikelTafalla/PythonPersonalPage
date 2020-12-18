@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mikel's Webpage Python Practice</title>
-</head>
-<body>
-    <div class="container">
-        <h1 class="logo">Mikel's First Python Page</h1>
-    </div>
-    <strong><nav>
-        <ul class="menu">
-            <li><a href="{{ url_for('home') }}">Home</a></li>
-        </ul>
-    </nav></strong>
-</body>
-</html>
+{%extends "layout.html"%}
+{%block content%}
+<div class="home">
+    <h4>My home page</h4>
+    <p>This is a web site for practicing</p>
+</div>
+{%endblock%}
