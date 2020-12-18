@@ -56,7 +56,7 @@ h3 {
   margin-top: 30px;
   text-align: center;
   letter-spacing: -1px;
-  color: #999;
+  color: black;
 }
 
 .menu {
@@ -73,6 +73,7 @@ h3 {
 }
 
 .menu li a {
+  margin-right: 35px;
   color: #444;
   text-decoration: none;
 }
